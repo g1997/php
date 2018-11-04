@@ -1,0 +1,12 @@
+<html>
+<head></head>
+<body>
+<h1> This is a php program </h1>
+<?php
+$str1="Ganesh";
+$str2="Kamath";
+//For concatenation operatr,we will use "." operator
+echo $str1." ".$str2;
+?> 
+</body>
+</html>
