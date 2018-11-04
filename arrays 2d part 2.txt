@@ -1,0 +1,61 @@
+
+<html>
+<head></head>
+<body>
+<h1> This is a php program </h1>
+<?php
+//Program for 2D array
+$arex=array();
+$arex[0]=array(12,13,14);
+$arex[1]=array(13,14,15);
+$arex[]=array(11,19,20);
+$arex['a']=array(15,15,15);
+$arex[]=array(12,13,19);
+echo "<pre>";
+print_r($arex);
+echo "</pre>";
+?>
+</html>
+</body>
+
+
+
+OUTPUT
+Array
+(
+    [0] => Array
+        (
+            [0] => 12
+            [1] => 13
+            [2] => 14
+        )
+
+    [1] => Array
+        (
+            [0] => 13
+            [1] => 14
+            [2] => 15
+        )
+
+    [2] => Array
+        (
+            [0] => 11
+            [1] => 19
+            [2] => 20
+        )
+
+    [a] => Array
+        (
+            [0] => 15
+            [1] => 15
+            [2] => 15
+        )
+
+    [3] => Array
+        (
+            [0] => 12
+            [1] => 13
+            [2] => 19
+        )
+
+)
