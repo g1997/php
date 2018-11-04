@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+<h1> This is a php program </h1>
+<?php
+$str="This is a simple example of string";
+echo $str;
+?>
+</body>
+</html>
